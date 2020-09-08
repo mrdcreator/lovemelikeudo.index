@@ -1,0 +1,77 @@
+.box
+{
+	width: 60%;
+	height: 900px;
+	margin: 60px auto;
+	background-image: url(bb.jpg);
+	text-align: center;
+}
+.disc 
+{
+      margin-top: 10%;
+	  width:250px;
+	  height:250px;
+	  border-radius:50%;
+	  -webkit-animation-name:rotate;
+	  -webkit-animation-duration:5s;
+	  -webkit-animation-iteration-count:infinite;
+	  -webkit-animation-timing-function:linear;
+	 
+}
+
+@-webkit-keyframes rotate {
+	  from { 	-webkit-transform:rotate(0deg); }
+  to { -webkit-transform:rotate(360deg); }
+}
+
+    #myTune
+    {
+      margin-top: 0px;
+      margin-bottom: 20px;
+      margin-top: 50px;
+      width: 300px;
+    }
+#playbutton
+{
+  border: 2px solid black;
+  background-color: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #D01E31;
+  color: #fff;
+height: 35px;
+width: 130px;
+border-radius: 20px;
+margin-right: 13px;
+}
+#pausebutton
+{
+  border: 2px solid black;
+  background-color: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #D01E31;
+  color: #fff;
+height: 35px;
+width: 130px;
+border-radius: 20px;
+margin-left: 13px;
+}
+
+#playbutton:hover { 
+	background: #D01E31;
+}
+#pausebutton:hover { 
+	background: #D01E31;
+}
+img
+{
+	margin-top: 60px;
+}
+ .line
+{
+	color: #fff;
+	font-size: 16px;
+	margin-top: 140px;
+font-family: verdana;
+}
